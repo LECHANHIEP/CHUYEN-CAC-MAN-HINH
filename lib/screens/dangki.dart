@@ -70,7 +70,7 @@ class dangki extends StatelessWidget {
                   TextButton(
                     onPressed: () {
 
-                        Navigator.push(
+                       Navigator.push(
                        context,
                        MaterialPageRoute(builder: (_) => const ManChinh()),
                 );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'manhinhchinh.dart';
+import 'nha1.dart'; // Đảm bảo bạn đã tạo file nha1.dart với lớp Nha1
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -15,6 +16,17 @@ class _HomeState extends State<Home> {
     setState(() {
       danhSach.add('Nhà ${danhSach.length + 1}');
     });
+  }
+
+  void _chuyenDenManHinh(String tenNha) {
+    if (tenNha == 'Nhà 1') {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => const Nha1()),
+      );
+    } else {
+      // Xử lý cho các nhà khác nếu cần
+    }
   }
 
   @override
@@ -60,7 +72,7 @@ class _HomeState extends State<Home> {
                   children: danhSach.map((ten) {
                     return ElevatedButton(
                       onPressed: () {
-                        // Tạm thời không làm gì khi nhấn
+                        _chuyenDenManHinh(ten);
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.blue,

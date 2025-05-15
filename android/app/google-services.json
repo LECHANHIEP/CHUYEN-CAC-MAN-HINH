@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "982339964254",
+    "firebase_url": "https://smart-home1-c7725-default-rtdb.firebaseio.com",
+    "project_id": "smart-home1-c7725",
+    "storage_bucket": "smart-home1-c7725.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982339964254:android:e1c5c0f566e3dfee8dd3cf",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2yUX4ZzCT1lYzUjOgeq4jm8gCObz-Lys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
